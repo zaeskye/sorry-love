@@ -1,0 +1,88 @@
+<html>
+  <head>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" />
+
+
+    <link rel="stylesheet" href="style.css" />
+
+    <nav class="navbar navbar-expand-lg navbar-light shadow p-2 fixed-top">
+      <div class="container">
+        <a class="navbar-brand text-center" href="#">Ikhlas dari hati yang ada kamu di dalamnya hihi</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+        </div>
+      </div>
+    </nav>
+
+  <title> dimaafkan auto balikan hihi  </title>
+ 
+  <body>
+    <section>
+      <div class="container">
+        <div class="card text-center">
+          <div class="col-md-6 mb-3">
+            <h3> Hi haingsem, mau minta maaf hehe </h3>
+            <h3>maaf kan pweaseeee ??</h3>
+            <img class="text-center" src="image/maaf.jpeg" alt="maaf" width="200">
+            <div id="By" style="position:absolute; left:50px; top:370px; width:210px;  height:210px;">
+              <button type = "submit" class="text-center" name = "learn" value = "Iya" onClick="f1()">
+                <img src="image/dimaaf.jpeg" style="left:50px; top:370px; width:100px;  height:100px;" />
+              </button>
+            </div>
+            <div ID="Bn" style="position:absolute; left:166px; top:370px; width:210px; height:210px;">
+              <input class="text-center" type="button" value=" Ndamau " onMouseOver="f()"/>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    
+
+    
+  </body>
+</head>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+<script type="text/javascript">
+  flag=1
+  function f1()
+  {
+      alert("hehe macam tu lah")
+  }
+  function f()
+  {
+      if(flag==1)
+          {
+              Bn.style.top=400
+              Bn.style.left=300
+              flag=2
+          }
+      else if(flag==2)
+          {
+              Bn.style.top=400
+              Bn.style.left=50
+              flag=3
+          }
+      else if(flag==3)
+          {
+              Bn.style.top=370
+              Bn.style.left=166
+              flag=1
+          }
+      
+  }
+  </script>
+</html>
+
